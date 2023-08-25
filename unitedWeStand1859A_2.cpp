@@ -66,15 +66,15 @@ int main()
         }
         else
         {
-            cout << c.size() << " " << b.size() << endl;
-            for (int i = 0; i < c.size(); i++)
-            {
-                cout << c[i] << " ";
-            }
-            cout << endl;
+            cout << b.size() << " " << c.size() << endl;
             for (int i = 0; i < b.size(); i++)
             {
                 cout << b[i] << " ";
+            }
+            cout << endl;
+            for (int i = 0; i < c.size(); i++)
+            {
+                cout << c[i] << " ";
             }
             cout << endl;
         }
